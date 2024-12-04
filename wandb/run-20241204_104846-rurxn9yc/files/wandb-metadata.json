@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "3.12.7",
+  "startedAt":  "2024-12-04T09:48:46.751211Z",
+  "program":  "c:\\Users\\shaun\\Documents\\Projects\\Web_App\\main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/shaun-aileadnav/Web_App.git",
+    "commit":  "35fdd3fd2f908bddca750a5f142ece62f1abe154"
+  },
+  "email":  "shaun@ai-leadnav.com",
+  "root":  "C:\\Users\\shaun\\Documents\\Projects\\Web_App",
+  "host":  "DESKTOP-1SPR7GT",
+  "username":  "shaun",
+  "executable":  "C:\\Users\\shaun\\miniconda3\\envs\\project\\python.exe",
+  "codePathLocal":  "main.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce GTX 1070",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "499429404672",
+      "used":  "448935432192"
+    }
+  },
+  "memory":  {
+    "total":  "17126936576"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1070",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  1920,
+      "architecture":  "Pascal"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

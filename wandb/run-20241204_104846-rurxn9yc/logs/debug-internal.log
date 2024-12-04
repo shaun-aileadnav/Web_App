@@ -1,0 +1,16 @@
+{"time":"2024-12-04T10:48:46.7607047+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-04T10:48:46.7607047+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\shaun\\Documents\\Projects\\Web_App\\wandb\\run-20241204_104846-rurxn9yc\\logs\\debug-core.log"}
+{"time":"2024-12-04T10:48:47.1139828+01:00","level":"INFO","msg":"created new stream","id":"rurxn9yc"}
+{"time":"2024-12-04T10:48:47.1145171+01:00","level":"INFO","msg":"stream: started","id":"rurxn9yc"}
+{"time":"2024-12-04T10:48:47.1145171+01:00","level":"INFO","msg":"sender: started","stream_id":"rurxn9yc"}
+{"time":"2024-12-04T10:48:47.1145171+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rurxn9yc"}
+{"time":"2024-12-04T10:48:47.1145171+01:00","level":"INFO","msg":"handler: started","stream_id":"rurxn9yc"}
+{"time":"2024-12-04T10:48:47.5742133+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T10:55:45.6602568+01:00","level":"INFO","msg":"stream: closing","id":"rurxn9yc"}
+{"time":"2024-12-04T10:55:45.6602568+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-04T10:55:45.6609283+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-04T10:55:48.5701155+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-04T10:55:48.8272991+01:00","level":"INFO","msg":"handler: closed","stream_id":"rurxn9yc"}
+{"time":"2024-12-04T10:55:48.8278842+01:00","level":"INFO","msg":"sender: closed","stream_id":"rurxn9yc"}
+{"time":"2024-12-04T10:55:48.8278434+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rurxn9yc"}
+{"time":"2024-12-04T10:55:48.8286364+01:00","level":"INFO","msg":"stream: closed","id":"rurxn9yc"}

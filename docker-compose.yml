@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mnist_classifier:
+    build: .
+    environment:
+      - WANDB_API_KEY=c6e96b3d5ca654a8f7225e46a447e15ed0cde666
+      - TRAIN_DATA_PATH=/app/data/training.pt
+      - TEST_DATA_PATH=/app/data/test.pt
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "5000:5000"
