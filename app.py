@@ -46,12 +46,20 @@ def predict():
     if file.filename == '':
         return "No selected file", 400  # Return a 400 error if no file is selected
     
-    img = Image.open(file.stream).convert("L")  # Convert image to grayscale
-    img = transform(img).unsqueeze(0)  # Add batch dimension
+    img = Image.open(file.stream)  # Open the image without converting to grayscale
+    img = img.convert("RGB")  # Ensure the image is in RGB format
+    img = transform(img).unsqueeze(0)  # Apply transformations and add batch dimension
+
+    # Print the shape of the input data
+    print(f"Input shape: {img.shape}")
 
     with torch.no_grad():
         model.eval()
         output = model(img)
+
+        # Print the shape of the output data
+        print(f"Output shape: {output.shape}")
+
         prediction = output.argmax().item()  # Get the predicted class index
 
     return jsonify({"predicted_class": CLASSES[prediction]})  # Return the prediction as a JSON response
